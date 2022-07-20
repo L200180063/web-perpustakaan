@@ -50,4 +50,4 @@ Alur program:
 User biasa --- fitur -> Read, Cari, Login, Signup <br>
 User admin --- fitur -> Create, Read, Update, Delete, Cari, Login, Signup, Logout <br>
 
-</footer><p>HAPPYCODING :) | &copy; 2022 Anang Prasetyo</p></footer>
+<footer><p>HAPPYCODING :) | &copy; 2022 Anang Prasetyo</p></footer>
