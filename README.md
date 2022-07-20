@@ -50,6 +50,6 @@ Tingkatan User:
 User biasa --- fitur -> Read, Cari, Login, Signup
 User admin --- fitur -> Create, Read, Update, Delete, Cari, Login, Signup, Logout
 
-+----------------+---------------------+
-| HAPPYCODING :) | &copy; 2022 Anang Prasetyo |
++----------------+---------------------+<br>
+| HAPPYCODING :) | &copy; 2022 Anang Prasetyo |<br>
 +----------------+---------------------+
