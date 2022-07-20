@@ -47,7 +47,7 @@ if (isset($_POST["submit"])){
       </div>
     </div>
     <div class="atas-2">
-      <a href="index.php" class="btn btn-putih btn-small border">Kembali</a>
+      <a href="admin.php" class="btn btn-putih btn-small border">Kembali</a>
     </div>
     <div class="title">
       <p>Edit Buku</p>
