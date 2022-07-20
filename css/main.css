@@ -1,0 +1,51 @@
+@import "color.css";
+
+/* set default tag html */
+* {
+  cursor: default;
+}
+body {
+  font-family: "calibri";
+}
+a {
+  text-decoration: none;
+  cursor: default;
+  color: #000;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+input[type=text], input[type=number], input[type=file]{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text], input[type=number] {
+  cursor: text;
+}
+input[type=submit] {
+  border: none;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+input[type=search] {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 1rem; 
+  background: #fff;
+  color: #000;
+  cursor: text;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+footer {
+  display: block;
+  margin-top: 3rem;
+}

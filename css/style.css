@@ -1,0 +1,178 @@
+/*@import "color.css";*/
+@import "main.css";
+
+/* align */
+.tengah {text-align: center; justify-content: center;}
+.kanan {text-align: right;}
+
+/* custom css dimulai dari sini */
+.base {
+  padding: 1% 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--abu);
+  padding: 1rem;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+  padding: 0 1rem;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h-1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.animasi {
+  animation: flow 8s ease-in-out infinite;
+  background: linear-gradient(-60deg, #52F39E, #5715B1, #52F39E, #5715B1);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+#username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pencarian {
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+}
+/*.pencarian input {
+  border-radius: 
+}*/
+.content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem 0.5rem;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+}
+.content-2 label {
+  display: block;
+  margin: 0.5rem 0;
+}
+.content-2 img {
+  display: block;
+  width: 160px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.atas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.atas form input {
+  margin: 0 !important;
+}
+
+.atas-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid var(--abu);
+  padding: 0 1rem;
+  width: 150px;
+}
+.card-judul {
+  display: block;
+  font-size: 1rem;
+}
+.card-sub {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.card-poster {
+  display: inline-block;
+  object-fit: cover;
+  width: 150px;
+  height: 225px;
+  margin: 1rem auto;
+}
+
+.card-bot {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+  justify-content: space-between;
+}
+
+.full-w {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.full-w button {
+  margin: 2rem 0 1rem 0;
+}
+
+.full-h {
+  display: flex;
+  min-height: 95vh;
+}
+
+.login {
+  margin: auto;
+  width: 30%;
+  background: rgba(255,255,255,0.5);
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.2);
+}
+.login header {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.login p {
+  color: rgba(0,0,0,0.5);
+}
+.login a {
+  color: var(--biru);
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+@import "main.css";
+
+/* ukuran button */
+.btn-small {padding: 5px 15px;}
+.btn-medium {padding: 10px 30px;}
+/* add border */
+.border {border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.1);}
+
+.btn{
+  cursor: pointer;
+}
+
+.btn-putih {
+	text-decoration: none;
+  background: var(--putih);
+  color: #000;
+  border-radius: 5px;	
+}
+
+.btn-merah {
+	text-decoration: none;
+  background: var(--merah);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-hijau {
+	text-decoration: none;
+  background: var(--hijau);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-biru {
+  text-decoration: none;
+  background: var(--biru);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-kuning {
+	text-decoration: none;
+  background: var(--kuning);
+  color: #000;
+  border-radius: 5px;	
+}
+
+.btn-logout {
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000 !important;
+  border-radius: 5px;
+}

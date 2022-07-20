@@ -1,0 +1,11 @@
+/* mengatur variabel warna */
+:root {
+  --merah: rgb(239, 58, 58);
+  --hijau: rgb(38, 206, 88);
+  --biru: rgb(63, 63, 238);
+  --ungu: rgb(138, 45, 205);
+  --kuning: rgb(206, 228, 61);
+  --dark: rgb(45, 45, 45);
+  --putih: rgb(255, 255, 255);
+  --abu: rgba(0, 0, 0, 0.1);
+}
