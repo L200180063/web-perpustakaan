@@ -46,7 +46,7 @@ Alur program:
 6. Sekarang bisa melakukan CRUD data buku dan melakukan pencarian buku
 7. Klik Logout untuk mengakhiri session dan kembali ke halaman index.php
 
-Tingkatan User:
+<p>Tingkatan User:</p>
 User biasa --- fitur -> Read, Cari, Login, Signup <br>
 User admin --- fitur -> Create, Read, Update, Delete, Cari, Login, Signup, Logout <br>
 
