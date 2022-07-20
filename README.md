@@ -47,9 +47,7 @@ Alur program:
 7. Klik Logout untuk mengakhiri session dan kembali ke halaman index.php
 
 Tingkatan User:
-User biasa --- fitur -> Read, Cari, Login, Signup
-User admin --- fitur -> Create, Read, Update, Delete, Cari, Login, Signup, Logout
+User biasa --- fitur -> Read, Cari, Login, Signup <br>
+User admin --- fitur -> Create, Read, Update, Delete, Cari, Login, Signup, Logout <br>
 
-+----------------+---------------------+<br>
-| HAPPYCODING :) | &copy; 2022 Anang Prasetyo |<br>
-+----------------+---------------------+
+HAPPYCODING :) | &copy; 2022 Anang Prasetyo
