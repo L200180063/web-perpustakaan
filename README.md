@@ -32,7 +32,7 @@ Keterangan File CSS:
 1. File color.css berisi variabel warna yang di set pada elemen :root html
 2. File main.css berisi konfigurasi tampilan website dengan menggunakan tag html (body, h1, p, a, dll)
 3. File main.css perlu file color.css
-4. File style.css berisi konfigurasi tampilan website dengan menggunakan elemen custom class pada tag <div> -> <div class="..."></div>
+4. File style.css berisi konfigurasi tampilan website dengan menggunakan elemen custom class pada tag div -> div class="..."
 5. File style.css perlu file main.css dan color.css
 6. File button.css sama seperti file style.css tetapi hanya fokus pada elemen button yang diperlukan dalam web
 7. File button.css perlu file main.css dan color.css
@@ -51,5 +51,5 @@ User biasa --- fitur -> Read, Cari, Login, Signup
 User admin --- fitur -> Create, Read, Update, Delete, Cari, Login, Signup, Logout
 
 +----------------+---------------------+
-| HAPPYCODING :) | 2022 Anang Prasetyo |
+| HAPPYCODING :) | &copy; 2022 Anang Prasetyo |
 +----------------+---------------------+
